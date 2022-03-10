@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.logo{
+    box-sizing: border-box;
+    display: flex;
+    width: 25%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+a{
+    color: white;
+    padding: 2px;
+}
+
+li{
+    margin: 2px 0 2px 0;
+}
+.g1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(6px 5px 2px #F4A93F);
+}
+ ul li a.activ, .dropdown-item, ul li a:hover{
+    background:#F4A93F;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.ol li :hover{
+    background:#F4A93F;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.jumbotron{
+    box-shadow: -20px 20px 0px #F4A93F;
+    margin-left: 20px;
+}
+.hero{
+    background-image: url(./images/bg11.png);
+    background-size: cover;
+    padding-top: 8vh;
+}
+.hero1{
+    background-image: url(./images/bg3.png);
+    background-size: cover;
+    padding-top: 8vh;
+}
+.pp{
+    text-align: center;
+    text-shadow: -2px 2px 0px #F4A93F;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.pp2{
+    text-align: center;
+    text-shadow: -2px 2px 0px #F4A93F;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.card-title, .card-text{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.card{
+    box-shadow: -20px 20px 0px #F4A93F;
+    margin-left: 20px;
+}
+
+.feature__items{
+    display: flex;
+    background-color: rgb(75, 75, 75);
+    border: 1px #fff;
+    width: 445%;
+    box-shadow: -20px 20px 0px #F4A93F;
+    margin-top: 2rem;
+}
+
+.feature_container{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.feature__items i{
+    font-size: 3rem;
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+    color: rgb(242, 108, 34, 1);
+}
+
+.feature__info{
+    padding: 1.5rem;
+}
+
+
