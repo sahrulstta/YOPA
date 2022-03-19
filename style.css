@@ -7,16 +7,46 @@
 
 
 .logo{
-    box-sizing: border-box;
-    display: flex;
-    width: 25%;
-    height: 50%;
-    margin: 0;
-    padding: 0;
-    align-items: center;
+display: flex;
+width: 38.66px;
+height: 31.66px;
+left: 127.54px;
+top: 51px;
+margin-right: 20px;
 }
+
+.logos{
+    
+    width: 38.66px;
+    height: 31.66px;
+    left: 127.54px;
+    top: 51px;
+    margin-right: 20px;
+    }
+
+    .lp2{
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        }
+
+.lp{
+margin-top: 10px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 27px;
+}
+.span{
+    color: #F4A93F;
+}
+
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 2px;
 }
 
@@ -31,8 +61,8 @@ li{
     filter: drop-shadow(6px 5px 2px #F4A93F);
 }
  ul li a.activ, .dropdown-item, ul li a:hover{
-    background:#F4A93F;
-    color: #fff;
+   
+    color:#F4A93F;
     transition: 0.5s;
 }
 
@@ -42,10 +72,35 @@ li{
     transition: 0.5s;
 }
 
-.jumbotron{
-    box-shadow: -20px 20px 0px #F4A93F;
-    margin-left: 20px;
+.jum{
+    background: url(./imagesb/bg6.png);
+    background-size: cover;
+    width: 1217px;
+    height: 574px;
+    left: 114px;
+    top: 131px;
 }
+.anim1{
+    width: 581.68px;
+    height: 128.01px;
+    margin-left: 20px;
+    margin-top: -80px;
+    left: 182.71px;
+    top: 194.25px;
+
+    background: linear-gradient(90deg, #ECEFF1 0%, rgba(236, 239, 241, 0) 124.68%);
+    border-radius: 9.41222px;
+}
+.dd{
+    width: 120.48px;
+height: 99.77px;
+left: 150.71px;
+top: 171.66px;
+
+background: #E0EDF0;
+border-radius: 6.58855px;
+}
+
 .hero{
     background-image: url(./images/bg11.png);
     background-size: cover;
@@ -107,5 +162,36 @@ li{
 .feature__info{
     padding: 1.5rem;
 }
+.formm{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background-color: #f4a93fcb;
+    box-sizing: border-box;
+    width: 300px;
+    height: 25%;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #F4A93F;
+}
 
+.soc{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background: linear-gradient(270deg, #FFE599 0%, #F4A93F 102.32%);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.soc2{
+    color: #fff;
+    text-align: center;
+}
 
